@@ -14,8 +14,7 @@ import java.io.IOException;
  * Type javac CSVStripper.java in the directory, then java CSVStripper (no file extensions)
  * The output should be in the same folder.
  * Inputs must have the time in the first column of the CSV File.
- * @author James
- *
+ * @author James Ni
  */
 public class CSVStripper 
 {
