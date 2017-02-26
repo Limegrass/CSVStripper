@@ -97,13 +97,13 @@ public class CSVStripper
 						if(Math.abs(slowTime-nextTime)<slowTime-fastTime)
 						{
 							System.out.print(fastLine);
-							System.out.println(slowLine);
+							System.out.println("," + slowLine);
 							output.write(testNext + "," + slowLine + '\n');
 						}
 						else
 						{
 							System.out.print(fastLine);
-							System.out.println(slowLine);
+							System.out.println("," + slowLine);
 							output.write(fastLine + "," + slowLine + '\n');
 						}
 					}
